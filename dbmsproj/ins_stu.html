@@ -1,0 +1,88 @@
+<html>
+<title>Insert Student Data</title>
+
+<body background="sc.jpeg"; background-size 100% 100%>
+<form action="insert_stu.php" method="post">
+<link rel="stylesheet" href="w3.css">
+<style>
+.button {
+  background-color: #8894b4; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
+.container{  
+  display: flex;
+  #justify-content: center;
+  align-items: center;
+  height: 200px;
+   }
+
+.par{
+background-color:rgb(6, 25, 34);
+color:white;
+font-size:20px;
+}
+
+.lab{
+padding:10px;
+color : black;
+display:block;
+}
+
+.lab1 {
+    
+}
+.lab1:after{
+    content:"\a";
+    white-space: pre;
+}
+
+
+</style>
+<header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>INSERT</b></h1>
+    <h6><span class="w3-tag">STUDENTS</span></h6>
+  </header>
+
+<header >   
+
+
+<div class="container">
+<div class="lab">
+<label class="lab">STUDENT ID</label>
+<input type="number" name="sid" minlength="1"></div><br><div class="lab">
+<label class="lab">STUDENT NAME</label>
+<input type="text" name="name" ></div><div = class="lab">
+<label class="lab">AGE</label>
+<input type="number" name="age" min="5" max="12"></div><div class="lab">
+<label class="lab">GUARDIAN</label>
+<input type="text" name="g"></div>
+<div class="lab">
+<label class="lab">ADDRESS</label>
+<input type="text" name="add"><br></div></div>
+
+<div class="container">
+<div class="lab"> 
+<label class="lab">BRANCH</label>
+<input type="text" name="br" minlength="1"><br></div><div class="lab">
+<label class="lab">P no</label>
+<input type="text" name="pno" minlength="1"><br></div><div class="lab">
+
+</div></div>
+
+<button class="button" type="submit" name="sub">SUBMIT</button>
+<button class="button" onclick="location.href='ins.html'" type="button">BACK</button>
+    </div>
+  </header>
+
+
+</body>
+</html>

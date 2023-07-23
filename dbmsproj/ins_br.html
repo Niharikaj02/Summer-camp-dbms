@@ -1,0 +1,90 @@
+﻿<html>
+<title>Insert Branch</title>
+
+<body background="sc.jpeg"; background-size 100% 100%>
+<form action="insert_branch.php" method="post">
+<link rel="stylesheet" href="w3.css">
+<style>
+.button {
+  background-color: #8894b4; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
+.container{  
+  display: flex;
+  #justify-content: center;
+  align-items: center;
+  height: 200px;
+   }
+
+.par{
+background-color:rgb(6, 25, 34);
+color:white;
+font-size:20px;
+}
+
+.lab{
+padding:10px;
+color : black;
+display:block;
+}
+
+.lab1 {
+    
+}
+.lab1:after{
+    content:"\a";
+    white-space: pre;
+}
+
+
+</style>
+<header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>INSERT</b></h1>
+    <h6><span class="w3-tag">BRANCH DETAILS</span></h6>
+  </header>
+
+<header >   
+
+
+<div class="container">
+<div class="lab">
+<label class="lab">Branch No</label>
+<input type="number" name="bno"></div><br><div class="lab">
+<label class="lab">Branch Name</label>
+<input type="text" name="name" ></div><div = class="lab">
+<label class="lab">Address </label>
+<input type="text" name="add" ></div><div class="lab">
+<label class="lab"></label>
+</div>
+</div>
+
+<div class="container">
+<div class="lab">
+<label class="lab">Manager Name</label>
+<input type="text" name="mname"></div><br><div class="lab">
+<label class="lab">Mgr_id</label>
+<input type="text" name="mid" ></div><div = class="lab">
+<label class="lab">Contact </label>
+<input type="text" name="ph" minlength="10" maxlength="10" ></div><div class="lab">
+<label class="lab"></label>
+</div>
+</div>
+
+
+<button class="button" type="submit" name="sub">SUBMIT</button>
+<button class="button" onclick="location.href='ins.html'" type="button">BACK</button>
+    
+  </header>
+
+
+</body>
+</html>

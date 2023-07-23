@@ -1,0 +1,81 @@
+<html>
+<title>INSERT PROGRAMMES</title>
+
+<body background="sc.jpeg"; background-size 100% 100%>
+<form action="insert_prg.php" method="post">
+<link rel="stylesheet" href="w3.css">
+<style>
+.button {
+  background-color: #8894b4; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
+.container{  
+  display: flex;
+  #justify-content: center;
+  align-items: center;
+  height: 200px;
+   }
+
+.par{
+background-color:rgb(6, 25, 34);
+color:white;
+font-size:20px;
+}
+
+.lab{
+padding:10px;
+color : black;
+display:block;
+}
+
+.lab1 {
+    
+}
+.lab1:after{
+    content:"\a";
+    white-space: pre;
+}
+
+
+</style>
+<header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>INSERT</b></h1>
+    <h6><span class="w3-tag">PROGRAMMES</span></h6>
+  </header>
+
+<header >   
+
+
+<div class="container">
+<div class="lab">
+<label class="lab">PROGRAM N0</label>
+<input type="number" name="pid"></div><br><div class="lab">
+<label class="lab">PROGRAMME NAME</label>
+<input type="text" name="pname" ></div><div = class="lab">
+<label class="lab">DURATION (days)</label>
+<input type="number" name="day" min="1"></div><div class="lab">
+<label class="lab">FEE</label>
+<input type="text" name="fee"></div>
+<div class="lab">
+<label class="lab">NO. OF STUDENTS</label>
+<input type="text" name="stu"><br></div></div>
+
+
+
+<button class="button" type="submit" name="sub">SUBMIT</button>
+<button class="button" onclick="location.href='ins.html'" type="button">BACK</button>
+    </div>
+  </header>
+
+
+</body>
+</html>

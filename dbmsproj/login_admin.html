@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+    <title>SUMMER CAMP ADMIN LOGIN</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body >
+
+
+ <style>
+body {
+  font-family: 'Courier New',monospace;
+
+  background-image: url('pikrepo.jpg');
+  background-repeat: no-repeat;
+background-size: cover;
+ background-position: center;
+}
+</style> 
+
+
+     <form action="admin_login.php" method="post">
+
+        <h2 color='#00008b'>ADMIN LOGIN</h2>
+
+        <?php if (isset($_GET['error'])) { ?>
+
+            <p class="error"><?php echo $_GET['error']; ?></p>
+
+        <?php } ?>
+
+        <label align='center'>Admin id</label>
+
+        <input type="text" name="uname" placeholder="Admin id"><br>
+
+        <label>Password</label>
+
+        <input type="password" name="password" placeholder="Password" minlength="8"><br> 
+
+        <div align = "right"><button type="submit">Login</button>
+        <button class ="button" onclick="location.href='login_page.html'" type="button">Back</button></div> 
+
+     </form>
+     </header>
+</body>
+
+</html>
