@@ -1,8 +1,8 @@
-# Summer-camp-dbms
+## Summer-camp-dbms
 
 This Summer Camp Database Management System is a web application designed to streamline the management of a summer camp program. It serves as a comprehensive tool for administrators and users to efficiently handle various aspects of camp operations.
 
-#Features
+# Features
 
 Admin Panel
 Secure Authentication: Admins can securely log in to the system to access its functionalities.
